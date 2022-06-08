@@ -1,0 +1,99 @@
+.big{
+	background-image: url('photos/bg-top.jpg');
+}
+.big-cont{
+	margin: 0 10%;
+}
+header{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.headerfirst, .headersecond{
+	margin: 0 10%;
+}*/
+.menu{
+	background-image: url("photos/header.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-size: contain;*/
+  background-size: inherit;
+  /*height: inherit;*/
+	
+	
+	/*height: 100px;
+	text-align: center;*/
+}
+ul{
+	width: 100%;
+	background-color: #f2c288;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	justify-content: space-evenly;
+  	display: flex;
+}
+
+ul li{
+
+	float: left;
+	margin: 0;
+ }
+
+ul li a{
+	padding: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+.featured{
+	background-color: white;
+}
+
+.featured h3{
+	padding: 8px;
+	margin-bottom: 0;
+}
+.fruits{
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.fruits img{
+	padding-top: 12px;
+}
+
+footer{
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+}
+footer div{
+	margin: 21px 9px;
+	background-color: white;
+	overflow: hidden;
+}
+footer p{
+	 color: grey;
+	 padding: 0 15%;
+}
+footer h3{
+	padding: 0 15%;
+}
+
+footer img{
+	padding: 0 15%;
+}
+.h{
+	color: yellow;
+}
+input{
+	margin-bottom: 13px;
+	margin-left: 15%;
+}
+
